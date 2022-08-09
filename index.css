@@ -1,0 +1,343 @@
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    color: #555;
+}
+
+body {
+    background: url('https://raw.githubusercontent.com/WebToLearn/personal-page-css-workshop/master/img/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    font-family: 'Lato', sans-serif;
+}
+
+.header {
+    margin-top: 30px;
+    margin-bottom: -30px;
+}
+
+.title {
+    margin: 0%;
+    font-family: 'Lato', sans-serif;
+    font-size: 38px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.subtitle{
+    color: #999;
+    margin-bottom: 1em;
+    font-size: 1.5em;
+    row-gap: 1em;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    font-weight: 900;
+}
+
+.menu{
+    width: 990px;
+    margin: 80px auto 0 auto;
+    text-align: center;
+}
+
+.menu-item{
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 20px;
+    margin-bottom: -5px;
+    padding: 10px 40px 10px 40px;
+    background: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: #999;
+    vertical-align: baseline;
+}
+
+a.menu-item.menu-item-active{
+    position: relative;
+    bottom: -1px;
+    color: #c0392b;
+    padding: 20px 40px 15px 40px;
+    margin-top: 0%;
+}
+
+hr{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: 1px solid #f1f1f1;
+}
+
+.resume-title{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 60px;
+    margin-bottom: 25px;
+}
+
+.resume-subtitle{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+p{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.resume-aside h2.resume-title {
+    margin-top: 60px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.resume-aside h3.resume-subtitle{
+    margin-top: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.resume-content{
+    border-right: 1px solid #f1f1f1;
+}
+
+.resume-aside{
+    margin-left: 20px;
+}
+
+div.resume-date{
+    color: white;
+    background: #5BC0DE;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    text-align-last: right;
+    margin-right: 20px;
+    margin-bottom: auto;
+    margin-top: auto;
+    width: 70px;
+    border-top-right-radius: 1.5px;
+    border-bottom-right-radius: 1.5px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+div.resume-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    width: 270px;
+}
+
+.material-symbols-outlined{
+    font-size: 14px;
+    align-items: baseline;
+}
+
+li{
+    border: 2px solid #f1f1f1;
+    margin-top: 10px;
+    margin-left: -42px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    color: white;   
+}
+
+
+
+li.skills-item span.skills-bg.photoshop {
+    background-color: #5DB85C;
+    background-image: linear-gradient(135deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 10%,transparent);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    display: grid;
+    width: 30%;
+}
+
+li.skills-item span.skills-bg.html{
+    background-color: #5DB85C;
+    background-image: linear-gradient(135deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 10%,transparent);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    display: grid;
+    width: 96%;
+}
+
+
+li.skills-item span.skills-bg.ilustrator {
+    background-color: orange;
+    background-image: linear-gradient(135deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 10%,transparent);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    display: grid;
+    width: 90%;
+}
+
+li.skills-item span.skills-bg.php{
+    background-color: orange;
+    background-image: linear-gradient(135deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 10%,transparent);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    display: grid;
+    width: 33%;
+}
+
+li.skills-item span.skills-bg.indesign {
+    background-color: #8E44AD;
+    background-image: linear-gradient(135deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 10%,transparent);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    display: grid;
+    width: 67%;
+}
+
+li.skills-item span.skills-bg.javascript{
+    background-color: #8E44AD;
+    background-image: linear-gradient(135deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 10%,transparent);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    display: grid;
+    width: 50%;
+}
+
+li.skills-item span.skills-bg.xd {
+    background-color: #F1C40F;
+    background-image: linear-gradient(135deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 10%,transparent);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    display: grid;
+    width: 37%;
+}
+
+li.skills-item span.skills-bg.ruby{
+    background-color: #F1C40F;
+    background-image: linear-gradient(135deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 10%,transparent);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    display: grid;
+    width: 23%;
+}
+
+li.skills-item span.skills-bg.sketch {
+    background-color: #2c3e50;
+    background-image: linear-gradient(135deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 10%,transparent);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    display: grid;
+    width: 72%;
+}
+
+li.skills-item span.skills-bg.python{
+    background-color: #2c3e50;
+    background-image: linear-gradient(135deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 10%,transparent);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    display: grid;
+    width: 75%;
+}
+
+li.skills-item span.skills-bg.office {
+    background-color: #C0392B;
+    background-image: linear-gradient(135deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 10%,transparent);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    display: grid;
+    width: 64%;
+}
+
+li.skills-item span.skills-bg.linux{
+    background-color: #555;
+    background-image: linear-gradient(135deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 10%,transparent);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    display: grid;
+    width: 70%;
+}
+
+li.skills-item span.skills-bg.user{
+    background-color: #5DB85C;
+    background-image: linear-gradient(135deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 10%,transparent);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    display: grid;
+    width: 20%;
+}
+
+li.skills-item span.skills-bg.typography{
+    background-color: orange;
+    background-image: linear-gradient(135deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 10%,transparent);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    display: grid;
+    width: 95%;
+}
+
+li.skills-item span.skills-bg.web{
+    background-color: #8E44AD;
+    background-image: linear-gradient(135deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 10%,transparent);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    display: grid;
+    width: 84%;
+}
+
+.resume-container {
+  background: white;
+  width: 990px;
+  margin: 0 auto 30px auto;
+  padding: 30px 20px;
+  border: 1px solid #f1f1f1;
+  box-shadow: 0px 6px #c0392b;
+  border-radius: 0px 0px 4px 4px;
+  display: flex;
+}
